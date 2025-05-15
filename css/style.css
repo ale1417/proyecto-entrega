@@ -114,7 +114,104 @@
   border-radius: 10px;
 }
 
+/* habilidades */
+.main-habilidades {
+  background-color: ghostwhite;
+}
+.title-habilidades {
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 30px;
+}
+.subtittle-habilidades {
+  margin-bottom: 1rem;
+  margin-left: 16px;
+}
+
+.container-tarjetas {
+  margin-left: 10px;
+  margin-top: 32px;
+}
+.tarjeta {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  width: 300px;
+  border-left: 4px solid #2563eb;
+}
+
+/* contato */
+.main-contacto {
+  background-color: ghostwhite;
+  padding: 10px;
+}
+.form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  width: 380px;
+  margin-top: 40px;
+}
+
+.form-title {
+  margin-bottom: 1.5rem;
+}
+
+.campo {
+  margin-bottom: 1rem;
+}
+
+.campo label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input-text {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.grupo {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.campo-inline {
+  display: inline-block;
+  width: 48%;
+  box-sizing: border-box;
+}
+
+.campo-inline:first-child {
+  margin-right: 4%;
+}
+
+.boton {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
 @media (min-width: 600px) {
+  .main-contacto {
+    padding: 30px;
+  }
 }
 @media (min-width: 1024px) {
   .header {
@@ -126,8 +223,7 @@
     display: flex;
     justify-content: center;
   }
-  .container-sobremi {
-    flex-direction: row;
-    justify-content: start;
+  .main-sobre-mi {
+    padding: 50px;
   }
 }

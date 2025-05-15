@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container-index">
+      <header class="header">
+        <h2>Portfolio</h2>
+        <nav class="header-nav">
+          <a href="../index.html" class="buttom-nav">Inicio</a>
+          <a href="./sobre-mi.html" class="buttom-nav">Sobre mi</a>
+
+          <a href="./mis-habilidades.html" class="buttom-nav">Habilidades</a>
+          <a href="./contacto.html" class="buttom-select">Contactame</a>
+        </nav>
+      </header>
+      <main class="main-contacto">
+        <div class="form">
+          <h2 class="form-title">Envíame un mensaje</h2>
+
+          <form
+            class="flex-container"
+            action="mailto:tu@email.com"
+            method="post"
+            enctype=""
+          >
+            <div class="grupo">
+              <div class="campo-inline">
+                <label for="nombre">Nombre</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="Nombre"
+                  class="input-text"
+                  placeholder="Tu nombre"
+                  required
+                />
+              </div>
+              <div class="campo-inline">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="Email"
+                  class="input-text"
+                  placeholder="tu@email.com"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="campo">
+              <label for="asunto">Asunto</label>
+              <input
+                type="text"
+                id="asunto"
+                name="Asunto"
+                class="input-text"
+                placeholder="Asunto del mensaje"
+                required
+              />
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                name="Mensaje"
+                class="input-text"
+                rows="6"
+                placeholder="Tu mensaje"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="boton">Enviar Mensaje</button>
+          </form>
+        </div>
+      </main>
+      <footer class="footer">
+        <h4 class="footer-content">© 2025 todos los derechos reservados</h4>
+      </footer>
+    </div>
+  </body>
+</html>
