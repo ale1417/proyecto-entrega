@@ -40,6 +40,9 @@
   text-decoration: none;
   font-family: sans-serif;
 }
+.buttom-nav:hover, .buttom-select:hover {
+  border-bottom: #000000 2px solid;
+}
 
 .buttom-select {
   background-color: black;
@@ -236,6 +239,7 @@
   .header-nav {
     display: flex;
     justify-content: center;
+    gap: 5px;
   }
   .img-sobre-mi {
     margin-top: 4px;
@@ -251,6 +255,9 @@
   }
   .input-text {
     font-size: 0.6rem;
+  }
+  .buttom-select {
+    border-radius: 4px;
   }
 }
 

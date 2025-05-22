@@ -50,6 +50,12 @@ $text-subtittle: sans-serif;
   border-radius: 10px;
   text-decoration: none;
   font-family: sans-serif;
+  &:hover {
+    // transition: 0.5s;
+    // background-color: black;
+    // color: white;
+    border-bottom: #000000 2px solid;
+  }
 }
 .buttom-select {
   @extend .buttom-nav;
@@ -234,6 +240,7 @@ $text-subtittle: sans-serif;
   .header-nav {
     display: flex;
     justify-content: center;
+    gap: 5px;
   }
 
   .img-sobre-mi {
@@ -251,5 +258,8 @@ $text-subtittle: sans-serif;
 
   .input-text {
     font-size: 0.6rem;
+  }
+  .buttom-select {
+    border-radius: 4px;
   }
 }
