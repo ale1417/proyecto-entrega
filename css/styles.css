@@ -30,6 +30,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 10px56156ccd;
   width: 100%;
 }
 
@@ -42,6 +43,7 @@
 }
 .buttom-nav:hover, .buttom-select:hover {
   border-bottom: #000000 2px solid;
+  transform: scale(1.08);
 }
 
 .buttom-select {
@@ -117,6 +119,10 @@
   width: 300px;
   height: 350px;
   border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+.main-sobre-mi .img-sobre-mi:hover {
+  transform: scale(1.05);
 }
 
 /* habilidades */
@@ -239,7 +245,7 @@
   .header-nav {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 20px;
   }
   .img-sobre-mi {
     margin-top: 4px;

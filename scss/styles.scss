@@ -40,6 +40,7 @@ $text-subtittle: sans-serif;
 
 .header-nav {
   @include D-flex(row, space-between, center);
+  gap: 10px56156ccd;
 
   width: 100%;
 }
@@ -50,8 +51,10 @@ $text-subtittle: sans-serif;
   border-radius: 10px;
   text-decoration: none;
   font-family: sans-serif;
+
   &:hover {
     border-bottom: #000000 2px solid;
+    transform: scale(1.08);
   }
 }
 .buttom-select {
@@ -119,6 +122,10 @@ $text-subtittle: sans-serif;
     width: 300px;
     height: 350px;
     border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }
 
@@ -237,7 +244,9 @@ $text-subtittle: sans-serif;
   .header-nav {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 20px;
+  }
+  .buttom-nav {
   }
 
   .img-sobre-mi {
