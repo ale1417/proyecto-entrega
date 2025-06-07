@@ -83,6 +83,7 @@ $text-subtittle: sans-serif;
 
 /* footer */
 .footer {
+  gap: 15px;
   height: 8vh;
   grid-area: footer;
   background-color: $color-tertiary;
@@ -92,10 +93,21 @@ $text-subtittle: sans-serif;
 
   bottom: 0;
   width: 100%;
+  flex-wrap: wrap;
 }
 .footer-content {
-  font-family: sans-serif;
-  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.container-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.icon-footer {
   color: white;
 }
 /* sobre mi */
@@ -235,6 +247,12 @@ $text-subtittle: sans-serif;
     height: 5vh;
   }
 }
+@media (min-width: 790px) {
+  .form-title {
+    font-size: 2.1rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .header {
     @include D-flex(row, space-between, center);
@@ -245,8 +263,6 @@ $text-subtittle: sans-serif;
     display: flex;
     justify-content: center;
     gap: 20px;
-  }
-  .buttom-nav {
   }
 
   .img-sobre-mi {
